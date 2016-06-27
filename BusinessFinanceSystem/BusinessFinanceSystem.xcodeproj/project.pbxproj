@@ -13,8 +13,6 @@
 		21BCEC5F1D2181C4000CF599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC5D1D2181C4000CF599 /* Main.storyboard */; };
 		21BCEC611D2181C4000CF599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC601D2181C4000CF599 /* Assets.xcassets */; };
 		21BCEC641D2181C4000CF599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC621D2181C4000CF599 /* LaunchScreen.storyboard */; };
-		21BCEC6F1D2181C4000CF599 /* BusinessFinanceSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCEC6E1D2181C4000CF599 /* BusinessFinanceSystemTests.m */; };
-		21BCEC7A1D2181C4000CF599 /* BusinessFinanceSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCEC791D2181C4000CF599 /* BusinessFinanceSystemUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +44,7 @@
 		21BCEC631D2181C4000CF599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BCEC651D2181C4000CF599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21BCEC6A1D2181C4000CF599 /* BusinessFinanceSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessFinanceSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21BCEC6E1D2181C4000CF599 /* BusinessFinanceSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessFinanceSystemTests.m; sourceTree = "<group>"; };
-		21BCEC701D2181C4000CF599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21BCEC751D2181C4000CF599 /* BusinessFinanceSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessFinanceSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21BCEC791D2181C4000CF599 /* BusinessFinanceSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessFinanceSystemUITests.m; sourceTree = "<group>"; };
-		21BCEC7B1D2181C4000CF599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				21BCEC531D2181C4000CF599 /* BusinessFinanceSystem */,
-				21BCEC6D1D2181C4000CF599 /* BusinessFinanceSystemTests */,
-				21BCEC781D2181C4000CF599 /* BusinessFinanceSystemUITests */,
 				21BCEC521D2181C4000CF599 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,24 +112,6 @@
 				21BCEC551D2181C4000CF599 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		21BCEC6D1D2181C4000CF599 /* BusinessFinanceSystemTests */ = {
-			isa = PBXGroup;
-			children = (
-				21BCEC6E1D2181C4000CF599 /* BusinessFinanceSystemTests.m */,
-				21BCEC701D2181C4000CF599 /* Info.plist */,
-			);
-			path = BusinessFinanceSystemTests;
-			sourceTree = "<group>";
-		};
-		21BCEC781D2181C4000CF599 /* BusinessFinanceSystemUITests */ = {
-			isa = PBXGroup;
-			children = (
-				21BCEC791D2181C4000CF599 /* BusinessFinanceSystemUITests.m */,
-				21BCEC7B1D2181C4000CF599 /* Info.plist */,
-			);
-			path = BusinessFinanceSystemUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21BCEC6F1D2181C4000CF599 /* BusinessFinanceSystemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21BCEC7A1D2181C4000CF599 /* BusinessFinanceSystemUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +470,7 @@
 				21BCEC801D2181C4000CF599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21BCEC811D2181C4000CF599 /* Build configuration list for PBXNativeTarget "BusinessFinanceSystemTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +479,7 @@
 				21BCEC831D2181C4000CF599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21BCEC841D2181C4000CF599 /* Build configuration list for PBXNativeTarget "BusinessFinanceSystemUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +488,7 @@
 				21BCEC861D2181C4000CF599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
