@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21BCEC561D2181C4000CF599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCEC551D2181C4000CF599 /* main.m */; };
+		21BCEC591D2181C4000CF599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCEC581D2181C4000CF599 /* AppDelegate.m */; };
+		21BCEC5C1D2181C4000CF599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCEC5B1D2181C4000CF599 /* ViewController.m */; };
+		21BCEC5F1D2181C4000CF599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC5D1D2181C4000CF599 /* Main.storyboard */; };
+		21BCEC611D2181C4000CF599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC601D2181C4000CF599 /* Assets.xcassets */; };
+		21BCEC641D2181C4000CF599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC621D2181C4000CF599 /* LaunchScreen.storyboard */; };
+		21BCEC6F1D2181C4000CF599 /* BusinessFinanceSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCEC6E1D2181C4000CF599 /* BusinessFinanceSystemTests.m */; };
+		21BCEC7A1D2181C4000CF599 /* BusinessFinanceSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCEC791D2181C4000CF599 /* BusinessFinanceSystemUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21BCEC6B1D2181C4000CF599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BCEC491D2181C4000CF599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BCEC501D2181C4000CF599;
+			remoteInfo = BusinessFinanceSystem;
+		};
+		21BCEC761D2181C4000CF599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BCEC491D2181C4000CF599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BCEC501D2181C4000CF599;
+			remoteInfo = BusinessFinanceSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21BCEC511D2181C4000CF599 /* BusinessFinanceSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessFinanceSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BCEC551D2181C4000CF599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21BCEC571D2181C4000CF599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21BCEC581D2181C4000CF599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21BCEC5A1D2181C4000CF599 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21BCEC5B1D2181C4000CF599 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21BCEC5E1D2181C4000CF599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21BCEC601D2181C4000CF599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21BCEC631D2181C4000CF599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21BCEC651D2181C4000CF599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BCEC6A1D2181C4000CF599 /* BusinessFinanceSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessFinanceSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BCEC6E1D2181C4000CF599 /* BusinessFinanceSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessFinanceSystemTests.m; sourceTree = "<group>"; };
+		21BCEC701D2181C4000CF599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BCEC751D2181C4000CF599 /* BusinessFinanceSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessFinanceSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BCEC791D2181C4000CF599 /* BusinessFinanceSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessFinanceSystemUITests.m; sourceTree = "<group>"; };
+		21BCEC7B1D2181C4000CF599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21BCEC4E1D2181C4000CF599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BCEC671D2181C4000CF599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BCEC721D2181C4000CF599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21BCEC481D2181C4000CF599 = {
+			isa = PBXGroup;
+			children = (
+				21BCEC531D2181C4000CF599 /* BusinessFinanceSystem */,
+				21BCEC6D1D2181C4000CF599 /* BusinessFinanceSystemTests */,
+				21BCEC781D2181C4000CF599 /* BusinessFinanceSystemUITests */,
+				21BCEC521D2181C4000CF599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21BCEC521D2181C4000CF599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21BCEC511D2181C4000CF599 /* BusinessFinanceSystem.app */,
+				21BCEC6A1D2181C4000CF599 /* BusinessFinanceSystemTests.xctest */,
+				21BCEC751D2181C4000CF599 /* BusinessFinanceSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21BCEC531D2181C4000CF599 /* BusinessFinanceSystem */ = {
+			isa = PBXGroup;
+			children = (
+				21BCEC571D2181C4000CF599 /* AppDelegate.h */,
+				21BCEC581D2181C4000CF599 /* AppDelegate.m */,
+				21BCEC5A1D2181C4000CF599 /* ViewController.h */,
+				21BCEC5B1D2181C4000CF599 /* ViewController.m */,
+				21BCEC5D1D2181C4000CF599 /* Main.storyboard */,
+				21BCEC601D2181C4000CF599 /* Assets.xcassets */,
+				21BCEC621D2181C4000CF599 /* LaunchScreen.storyboard */,
+				21BCEC651D2181C4000CF599 /* Info.plist */,
+				21BCEC541D2181C4000CF599 /* Supporting Files */,
+			);
+			path = BusinessFinanceSystem;
+			sourceTree = "<group>";
+		};
+		21BCEC541D2181C4000CF599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21BCEC551D2181C4000CF599 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21BCEC6D1D2181C4000CF599 /* BusinessFinanceSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				21BCEC6E1D2181C4000CF599 /* BusinessFinanceSystemTests.m */,
+				21BCEC701D2181C4000CF599 /* Info.plist */,
+			);
+			path = BusinessFinanceSystemTests;
+			sourceTree = "<group>";
+		};
+		21BCEC781D2181C4000CF599 /* BusinessFinanceSystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21BCEC791D2181C4000CF599 /* BusinessFinanceSystemUITests.m */,
+				21BCEC7B1D2181C4000CF599 /* Info.plist */,
+			);
+			path = BusinessFinanceSystemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21BCEC501D2181C4000CF599 /* BusinessFinanceSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BCEC7E1D2181C4000CF599 /* Build configuration list for PBXNativeTarget "BusinessFinanceSystem" */;
+			buildPhases = (
+				21BCEC4D1D2181C4000CF599 /* Sources */,
+				21BCEC4E1D2181C4000CF599 /* Frameworks */,
+				21BCEC4F1D2181C4000CF599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessFinanceSystem;
+			productName = BusinessFinanceSystem;
+			productReference = 21BCEC511D2181C4000CF599 /* BusinessFinanceSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21BCEC691D2181C4000CF599 /* BusinessFinanceSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BCEC811D2181C4000CF599 /* Build configuration list for PBXNativeTarget "BusinessFinanceSystemTests" */;
+			buildPhases = (
+				21BCEC661D2181C4000CF599 /* Sources */,
+				21BCEC671D2181C4000CF599 /* Frameworks */,
+				21BCEC681D2181C4000CF599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BCEC6C1D2181C4000CF599 /* PBXTargetDependency */,
+			);
+			name = BusinessFinanceSystemTests;
+			productName = BusinessFinanceSystemTests;
+			productReference = 21BCEC6A1D2181C4000CF599 /* BusinessFinanceSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21BCEC741D2181C4000CF599 /* BusinessFinanceSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BCEC841D2181C4000CF599 /* Build configuration list for PBXNativeTarget "BusinessFinanceSystemUITests" */;
+			buildPhases = (
+				21BCEC711D2181C4000CF599 /* Sources */,
+				21BCEC721D2181C4000CF599 /* Frameworks */,
+				21BCEC731D2181C4000CF599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BCEC771D2181C4000CF599 /* PBXTargetDependency */,
+			);
+			name = BusinessFinanceSystemUITests;
+			productName = BusinessFinanceSystemUITests;
+			productReference = 21BCEC751D2181C4000CF599 /* BusinessFinanceSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21BCEC491D2181C4000CF599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = taocheng;
+				TargetAttributes = {
+					21BCEC501D2181C4000CF599 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					21BCEC691D2181C4000CF599 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 21BCEC501D2181C4000CF599;
+					};
+					21BCEC741D2181C4000CF599 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 21BCEC501D2181C4000CF599;
+					};
+				};
+			};
+			buildConfigurationList = 21BCEC4C1D2181C4000CF599 /* Build configuration list for PBXProject "BusinessFinanceSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21BCEC481D2181C4000CF599;
+			productRefGroup = 21BCEC521D2181C4000CF599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21BCEC501D2181C4000CF599 /* BusinessFinanceSystem */,
+				21BCEC691D2181C4000CF599 /* BusinessFinanceSystemTests */,
+				21BCEC741D2181C4000CF599 /* BusinessFinanceSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21BCEC4F1D2181C4000CF599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BCEC641D2181C4000CF599 /* LaunchScreen.storyboard in Resources */,
+				21BCEC611D2181C4000CF599 /* Assets.xcassets in Resources */,
+				21BCEC5F1D2181C4000CF599 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BCEC681D2181C4000CF599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BCEC731D2181C4000CF599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21BCEC4D1D2181C4000CF599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BCEC5C1D2181C4000CF599 /* ViewController.m in Sources */,
+				21BCEC591D2181C4000CF599 /* AppDelegate.m in Sources */,
+				21BCEC561D2181C4000CF599 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BCEC661D2181C4000CF599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BCEC6F1D2181C4000CF599 /* BusinessFinanceSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BCEC711D2181C4000CF599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BCEC7A1D2181C4000CF599 /* BusinessFinanceSystemUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21BCEC6C1D2181C4000CF599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21BCEC501D2181C4000CF599 /* BusinessFinanceSystem */;
+			targetProxy = 21BCEC6B1D2181C4000CF599 /* PBXContainerItemProxy */;
+		};
+		21BCEC771D2181C4000CF599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21BCEC501D2181C4000CF599 /* BusinessFinanceSystem */;
+			targetProxy = 21BCEC761D2181C4000CF599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21BCEC5D1D2181C4000CF599 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21BCEC5E1D2181C4000CF599 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21BCEC621D2181C4000CF599 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21BCEC631D2181C4000CF599 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21BCEC7C1D2181C4000CF599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21BCEC7D1D2181C4000CF599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21BCEC7F1D2181C4000CF599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BusinessFinanceSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BusinessFinanceSystem.BusinessFinanceSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21BCEC801D2181C4000CF599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BusinessFinanceSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BusinessFinanceSystem.BusinessFinanceSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21BCEC821D2181C4000CF599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusinessFinanceSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BusinessFinanceSystem.BusinessFinanceSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessFinanceSystem.app/BusinessFinanceSystem";
+			};
+			name = Debug;
+		};
+		21BCEC831D2181C4000CF599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusinessFinanceSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BusinessFinanceSystem.BusinessFinanceSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessFinanceSystem.app/BusinessFinanceSystem";
+			};
+			name = Release;
+		};
+		21BCEC851D2181C4000CF599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BusinessFinanceSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BusinessFinanceSystem.BusinessFinanceSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BusinessFinanceSystem;
+			};
+			name = Debug;
+		};
+		21BCEC861D2181C4000CF599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BusinessFinanceSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BusinessFinanceSystem.BusinessFinanceSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BusinessFinanceSystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21BCEC4C1D2181C4000CF599 /* Build configuration list for PBXProject "BusinessFinanceSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BCEC7C1D2181C4000CF599 /* Debug */,
+				21BCEC7D1D2181C4000CF599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BCEC7E1D2181C4000CF599 /* Build configuration list for PBXNativeTarget "BusinessFinanceSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BCEC7F1D2181C4000CF599 /* Debug */,
+				21BCEC801D2181C4000CF599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21BCEC811D2181C4000CF599 /* Build configuration list for PBXNativeTarget "BusinessFinanceSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BCEC821D2181C4000CF599 /* Debug */,
+				21BCEC831D2181C4000CF599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21BCEC841D2181C4000CF599 /* Build configuration list for PBXNativeTarget "BusinessFinanceSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BCEC851D2181C4000CF599 /* Debug */,
+				21BCEC861D2181C4000CF599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21BCEC491D2181C4000CF599 /* Project object */;
+}
