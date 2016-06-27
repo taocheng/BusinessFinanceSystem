@@ -13,6 +13,7 @@
 		21BCEC5F1D2181C4000CF599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC5D1D2181C4000CF599 /* Main.storyboard */; };
 		21BCEC611D2181C4000CF599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC601D2181C4000CF599 /* Assets.xcassets */; };
 		21BCEC641D2181C4000CF599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BCEC621D2181C4000CF599 /* LaunchScreen.storyboard */; };
+		21BCECF21D2186EB000CF599 /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BCECEE1D2185F1000CF599 /* libCommon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,20 @@
 			remoteGlobalIDString = 21BCEC501D2181C4000CF599;
 			remoteInfo = BusinessFinanceSystem;
 		};
+		21BCECED1D2185F1000CF599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BCECE91D2185F0000CF599 /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21BCECDD1D2185F0000CF599;
+			remoteInfo = Common;
+		};
+		21BCECF01D2186BC000CF599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BCECE91D2185F0000CF599 /* Common.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BCECDC1D2185F0000CF599;
+			remoteInfo = Common;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +60,7 @@
 		21BCEC651D2181C4000CF599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21BCEC6A1D2181C4000CF599 /* BusinessFinanceSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessFinanceSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BCEC751D2181C4000CF599 /* BusinessFinanceSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessFinanceSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BCECE91D2185F0000CF599 /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = Common/Common.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BCECF21D2186EB000CF599 /* libCommon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 		21BCEC481D2181C4000CF599 = {
 			isa = PBXGroup;
 			children = (
+				21BCECE91D2185F0000CF599 /* Common.xcodeproj */,
 				21BCEC531D2181C4000CF599 /* BusinessFinanceSystem */,
 				21BCEC521D2181C4000CF599 /* Products */,
 			);
@@ -114,6 +132,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		21BCECEA1D2185F0000CF599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21BCECEE1D2185F1000CF599 /* libCommon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,6 +154,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				21BCECF11D2186BC000CF599 /* PBXTargetDependency */,
 			);
 			name = BusinessFinanceSystem;
 			productName = BusinessFinanceSystem;
@@ -203,6 +230,12 @@
 			mainGroup = 21BCEC481D2181C4000CF599;
 			productRefGroup = 21BCEC521D2181C4000CF599 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 21BCECEA1D2185F0000CF599 /* Products */;
+					ProjectRef = 21BCECE91D2185F0000CF599 /* Common.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				21BCEC501D2181C4000CF599 /* BusinessFinanceSystem */,
@@ -211,6 +244,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		21BCECEE1D2185F1000CF599 /* libCommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCommon.a;
+			remoteRef = 21BCECED1D2185F1000CF599 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		21BCEC4F1D2181C4000CF599 /* Resources */ = {
@@ -276,6 +319,11 @@
 			isa = PBXTargetDependency;
 			target = 21BCEC501D2181C4000CF599 /* BusinessFinanceSystem */;
 			targetProxy = 21BCEC761D2181C4000CF599 /* PBXContainerItemProxy */;
+		};
+		21BCECF11D2186BC000CF599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Common;
+			targetProxy = 21BCECF01D2186BC000CF599 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -389,8 +437,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BusinessFinanceSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = BusinessFinanceSystem.BusinessFinanceSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -400,8 +450,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BusinessFinanceSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = BusinessFinanceSystem.BusinessFinanceSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
